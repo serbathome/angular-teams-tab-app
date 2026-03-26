@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Teams theme support — applied by ThemeService on <body> */
+body.teams-theme-default {
+  --teams-bg: #ffffff;
+  --teams-fg: #201f1e;
+  --teams-brand: #6264a7;
+}
+
+body.teams-theme-dark {
+  --teams-bg: #1b1a19;
+  --teams-fg: #f3f2f1;
+  --teams-brand: #9ea2ff;
+}
+
+body.teams-theme-contrast {
+  --teams-bg: #000000;
+  --teams-fg: #ffffff;
+  --teams-brand: #ffff01;
+}
+
+body {
+  background-color: var(--teams-bg, #ffffff);
+  color: var(--teams-fg, #201f1e);
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}

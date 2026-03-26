@@ -1,0 +1,45 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.17/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.17",
+  "version": "1.0.0",
+  "id": "00c0513e-7bc8-4a98-bcb4-36fbed66c808",
+  "name": {
+    "short": "Teams Tab",
+    "full": "BMW Teams Angular Tab"
+  },
+  "description": {
+    "short": "Angular Teams Tab with OIDC auth",
+    "full": "Angular-based Microsoft Teams tab application with Entra ID OIDC authentication."
+  },
+  "developer": {
+    "name": "BMW",
+    "websiteUrl": "https://8wjt3082-4200.euw.devtunnels.ms",
+    "privacyUrl": "https://8wjt3082-4200.euw.devtunnels.ms",
+    "termsOfUseUrl": "https://8wjt3082-4200.euw.devtunnels.ms"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#0078D4",
+  "staticTabs": [
+    {
+      "entityId": "home",
+      "name": "Home",
+      "contentUrl": "https://8wjt3082-4200.euw.devtunnels.ms/home",
+      "websiteUrl": "https://8wjt3082-4200.euw.devtunnels.ms/home",
+      "scopes": ["personal"]
+    }
+  ],
+  "configurableTabs": [
+    {
+      "configurationUrl": "https://8wjt3082-4200.euw.devtunnels.ms/tab-config",
+      "canUpdateConfiguration": false,
+      "scopes": ["team", "groupchat"]
+    }
+  ],
+  "validDomains": [
+    "8wjt3082-4200.euw.devtunnels.ms"
+  ],
+  "permissions": ["identity"]
+}
