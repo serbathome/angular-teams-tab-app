@@ -1,4 +1,4 @@
-# BMW Teams Angular Tab
+# Microsoft Teams Angular Tab
 
 An Angular 21 application running as a Microsoft Teams tab, authenticated via the **OAuth 2.0 Authorization Code flow with PKCE** through the Teams popup auth pattern.
 
