@@ -5,14 +5,14 @@
   "id": "00c0513e-7bc8-4a98-bcb4-36fbed66c808",
   "name": {
     "short": "Teams Tab",
-    "full": "BMW Teams Angular Tab"
+    "full": "Microsoft Teams Angular Tab"
   },
   "description": {
     "short": "Angular Teams Tab with OIDC auth",
     "full": "Angular-based Microsoft Teams tab application with Entra ID OIDC authentication."
   },
   "developer": {
-    "name": "BMW",
+    "name": "Microsoft",
     "websiteUrl": "https://8wjt3082-4200.euw.devtunnels.ms",
     "privacyUrl": "https://8wjt3082-4200.euw.devtunnels.ms",
     "termsOfUseUrl": "https://8wjt3082-4200.euw.devtunnels.ms"
