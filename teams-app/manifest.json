@@ -13,9 +13,9 @@
   },
   "developer": {
     "name": "Microsoft",
-    "websiteUrl": "https://8wjt3082-4200.euw.devtunnels.ms",
-    "privacyUrl": "https://8wjt3082-4200.euw.devtunnels.ms",
-    "termsOfUseUrl": "https://8wjt3082-4200.euw.devtunnels.ms"
+    "websiteUrl": "https://teamsapp.my-cloud-lab.com",
+    "privacyUrl": "https://teamsapp.my-cloud-lab.com",
+    "termsOfUseUrl": "https://teamsapp.my-cloud-lab.com"
   },
   "icons": {
     "color": "color.png",
@@ -26,20 +26,20 @@
     {
       "entityId": "home",
       "name": "Home",
-      "contentUrl": "https://8wjt3082-4200.euw.devtunnels.ms/home",
-      "websiteUrl": "https://8wjt3082-4200.euw.devtunnels.ms/home",
+      "contentUrl": "https://teamsapp.my-cloud-lab.com/home",
+      "websiteUrl": "https://teamsapp.my-cloud-lab.com/home",
       "scopes": ["personal"]
     }
   ],
   "configurableTabs": [
     {
-      "configurationUrl": "https://8wjt3082-4200.euw.devtunnels.ms/tab-config",
+      "configurationUrl": "https://teamsapp.my-cloud-lab.com/tab-config",
       "canUpdateConfiguration": false,
       "scopes": ["team", "groupchat"]
     }
   ],
   "validDomains": [
-    "8wjt3082-4200.euw.devtunnels.ms"
+    "teamsapp.my-cloud-lab.com"
   ],
   "permissions": ["identity"]
 }

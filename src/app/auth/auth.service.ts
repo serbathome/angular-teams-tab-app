@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
-import { User, UserManager, UserManagerSettings } from 'oidc-client-ts';
+import { User, UserManager, UserManagerSettings, WebStorageStateStore } from 'oidc-client-ts';
 import { authentication } from '@microsoft/teams-js';
 import { environment } from '../../environments/environment';
 
@@ -11,8 +11,8 @@ const userManagerSettings: UserManagerSettings = {
   scope: environment.oidc.scope,
   response_type: environment.oidc.responseType,
   response_mode: 'query',
-  // Store tokens in sessionStorage only — never localStorage
-  userStore: undefined, // defaults to sessionStorage via WebStorageStateStore
+  // Persist tokens in localStorage so the user stays signed in across tab opens
+  userStore: new WebStorageStateStore({ store: window.localStorage }),
 };
 
 @Injectable({ providedIn: 'root' })
